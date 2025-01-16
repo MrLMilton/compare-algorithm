@@ -13,12 +13,7 @@ namespace compare_algorithm
         }
         static int[] CreateArray(int size, Random r)
         {
-            int[] array = new int[size];
-            for (int i = 0; i < size; i++)
-            {
-                array[i] = r.Next(1000, 100000);
-            }
-            return array;
+            
         }
         static void menu()
         {
@@ -83,7 +78,7 @@ namespace compare_algorithm
                 Merge(a, low, mid, high);
             }
         }
-        static bool LinearSearchIfFound(int[] a, int numToFind)
+        static bool LinearSearch(int[] a, int numToFind)
         {
 
         }
